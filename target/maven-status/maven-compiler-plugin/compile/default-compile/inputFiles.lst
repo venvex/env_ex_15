@@ -1,0 +1,4 @@
+/Users/env_ex_01/env_ex/JavaProjects/IN_01/src/main/java/dp/singleton/implementation/singleThreaded/NonThreadSafeSingleton.java
+/Users/env_ex_01/env_ex/JavaProjects/IN_01/src/main/java/dp/singleton/implementation/multiThreaded/ThreadSafeSingleton.java
+/Users/env_ex_01/env_ex/JavaProjects/IN_01/src/main/java/dp/singleton/Entrypoint.java
+/Users/env_ex_01/env_ex/JavaProjects/IN_01/src/main/java/dp/singleton/implementation/base/Singleton.java
