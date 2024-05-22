@@ -13,8 +13,13 @@ import org.junit.Test;
  */
 public class SingleThreadEnvironment {
 
-    @Test
+ @Test
     public void singleThreadSingletonTest(){
+        Singleton ob1 = NonThreadSafeSingleton.getInstance();
+        Singleton ob2 = NonThreadSafeSingleton.getInstance();
+        assert ob1 instanceof Singleton;
+        assert ob2 instanceof Singleton;
+        assert ob1 == ob2;
 
-     }
+    }
 }
